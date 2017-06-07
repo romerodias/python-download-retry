@@ -13,3 +13,4 @@ You be able to configure the retring interval in this parameters **wait_random_m
 ```
 @retry(wait_random_min=1000, wait_random_max=2000)
 ```
+If you wonder to know how this @entry decorator works, see it here https://pypi.python.org/pypi/retrying
