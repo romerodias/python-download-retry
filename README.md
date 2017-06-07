@@ -9,3 +9,7 @@ The script expects two parameters first the url to the file and second the absol
 ```
 python download-retry.py http://www.rdtecnologia.com.br/wp-content/themes/tema/js/jquery-1.4.2.min.js /home/jquery.js
 ```
+You be able to configure the retring interval in this parameters **wait_random_min** and **wait_random_max**
+```
+@retry(wait_random_min=1000, wait_random_max=2000)
+```
